@@ -1,0 +1,113 @@
+.signup-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url("https://cdn.shopify.com/s/files/1/1192/9690/files/IMG_6681_2048x2048.JPG?v=1485103613");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.signup-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.signup-title {
+  font-size: 3.5rem;
+  font-weight: 600;
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.signup-subtitle {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.signup-form {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-size: 0.875rem;
+  color: #333;
+}
+
+.form-input {
+  padding: 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+}
+
+.signup-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  font-size: 1.25rem;
+  color: #fff;
+  background-color: #1e90ff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: #1c86ee;
+}
+
+.signup-footer {
+  font-size: 1.25rem;
+  text-align: center;
+  color: #666;
+}
+
+.login-link {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+
+.error-input {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 3px;
+}
